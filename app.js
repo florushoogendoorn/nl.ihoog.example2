@@ -12,32 +12,32 @@ var self = module.exports = {
 			// say something back
 			speech.say( __("hello") );
 			
-		});
+		// });
 		
 		
 	
-		Homey.manager('ledring').animate('progress',
+			Homey.manager('ledring').animate('progress',
     
-			// optional animation-specific options
-			{
-				color: 'green',
-				rpm: 30 // change rotations per minute
-			},
+				// optional animation-specific options
+				{
+					color: 'green',
+					rpm: 30 // change rotations per minute
+				},
     
-			// priority
-			'INFORMATIVE',
+				// priority
+				'INFORMATIVE',
     
-			// duration
-			90000,
+				// duration
+				90000,
     
-			// callback
-			function( err, success ) {
-				if( err ) return console.error(err);
-				console.log("Animation played succesfully");
-			}
-		);	
+				// callback
+				function( err, success ) {
+					if( err ) return console.error(err);
+					console.log("Animation played succesfully");
+				}
+			);	
 		
-		
+		});
 	
 	}
 	
