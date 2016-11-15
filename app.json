@@ -1,0 +1,33 @@
+{
+    "id": "nl.ihoog.example2",
+    "version": "1.0.0",
+    "compatibility": "0.x || 1.x",
+    "category": "internet",
+    "name": {
+        "en": "Hello World!",
+        "nl": "Hallo wereld!"
+    },
+    "description": {
+        "en": "Example app for Homey",
+        "nl": "Voorbeeld app voor Homey"
+    },
+    "author": {
+        "name": "Florus Hoogendoorn",
+        "email": "florus@ihoog.nl"
+    },
+    "permissions": [
+        "homey:manager:speech-input",
+        "homey:manager:speech-output",
+		"homey:manager:ledring"
+    ],
+    "speech": [
+        {
+            "id": "hello",
+            "importance": 0.6,
+            "triggers": {
+                "en": [ "hello", "hi", "hey" ],
+				"nl": [	"hallo", "hoi" ]
+            }
+        }
+    ]
+}
