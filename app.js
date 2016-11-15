@@ -21,14 +21,14 @@ var self = module.exports = {
 			// optional animation-specific options
 			{
 				color: 'green',
-				rpm: 4 // change rotations per minute
+				rpm: 30 // change rotations per minute
 			},
     
 			// priority
 			'INFORMATIVE',
     
 			// duration
-			60000,
+			90000,
     
 			// callback
 			function( err, success ) {
