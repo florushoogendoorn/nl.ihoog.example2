@@ -1,11 +1,11 @@
 {
     "id": "nl.ihoog.example2",
-    "version": "1.0.0",
+    "version": "0.0.2",
     "compatibility": "0.x || 1.x",
-    "category": "internet",
+    "category": ["internet","tools"],
     "name": {
-        "en": "Hello World!",
-        "nl": "Hallo wereld!"
+        "en": "Homey Example 2 app",
+        "nl": "Homey Voorbeeld 2 app"
     },
     "description": {
         "en": "Example app for Homey",
@@ -13,6 +13,7 @@
     },
     "author": {
         "name": "Florus Hoogendoorn",
+        "website": "http://www.flomotica.nl",
         "email": "florus@ihoog.nl"
     },
     "permissions": [
