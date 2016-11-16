@@ -7,14 +7,10 @@ var self = module.exports = {
 		// when this app has been triggered on speech
 		Homey.manager('speech-input').on('speech', function( speech ){
 
-				Homey.log('onSpeech', speech);
+			Homey.log('onSpeech', speech);
 			
-				// say something back
-				speech.say( __("hello") );
-			
-    //		});
-			
-    //    	console.log("trigger", trigger);			
+			// say something back
+			speech.say( __("hello") );
 			
 			Homey.manager('ledring').animate('progress',
     
