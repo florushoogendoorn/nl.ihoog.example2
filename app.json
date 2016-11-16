@@ -1,6 +1,6 @@
 {
     "id": "nl.ihoog.example2",
-    "version": "0.0.2",
+    "version": "0.1.3",
     "compatibility": "0.x || 1.x",
     "category": ["internet","tools"],
     "name": {
