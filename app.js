@@ -8,6 +8,22 @@ var self = module.exports = {
 		Homey.manager('speech-input').on('speech', function( speech ){
 
 			Homey.log('onSpeech', speech);
+
+			var d = new Date();
+			var h = d.getHours();
+
+			if (h > 4 && h < 12) { 
+				speech.say( __("morning") );
+			}
+			if (h > 11 && h < 18) {
+				speech.say( __("afternoon") );
+			}
+			if (h > 17 && h < 23) {
+				speech.say( __("evening") );
+			}
+			if (h > 22 && h < 5) {
+				speech.say( __("night") );
+			}
 			
 			// say something back
 			speech.say( __("hello") );
