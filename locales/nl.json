@@ -1,4 +1,8 @@
 {
-	"hello": "Hallo, hoe gaat het met je?",
+	"hello": "Hoe gaat het met je?",
+	"morning": "Goede morgen, ",
+	"afternoon": "Goede middag, ",
+	"evening": "Goede avond, ",
+	"night": "Goede nacht, ",
 	"bye": "Tot ziens!"
 }
