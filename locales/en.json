@@ -1,4 +1,8 @@
 {
-	"hello": "Hello to you!",
+	"hello": "How are you?",
+	"morning": "Good morning, ",
+	"afternoon": "Good afternoon, ",
+	"evening": "Good evening, ",
+	"night": "Good Night, ",
 	"bye": "Good bye!"
 }
