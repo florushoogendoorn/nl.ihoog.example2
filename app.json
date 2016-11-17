@@ -14,7 +14,8 @@
     "author": {
         "name": "Florus Hoogendoorn",
         "website": "http://www.flomotica.nl",
-        "email": "florus@ihoog.nl"
+        "email": "florus@ihoog.nl",
+	"github": "https://github.com/florushoogendoorn/nl.ihoog.example2"
     },
     "permissions": [
         "homey:manager:speech-input",
@@ -30,5 +31,16 @@
 				"nl": [	"hallo", "hoi" ]
             }
         }
-    ]
+    ],
+    "flow": {
+        "actions": [
+            {
+                "id": "greet_message",
+                "title": {
+                    "en": "Say greeting",
+                    "nl": "Breng een groet"
+                }
+            }
+        ]
+    }	
 }
