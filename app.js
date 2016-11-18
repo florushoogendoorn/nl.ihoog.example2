@@ -26,7 +26,7 @@ var self = module.exports = {
 				speech.say( __("evening") );
 				console.log("-> if routine evening ... ");
 			}
-			if (h > 22 && h < 5) {
+			if (h > 22 || h < 5) {
 				speech.say( __("night") );
 				console.log("-> if routine night ... ");
 			}
